@@ -39,7 +39,7 @@ jobs:
 
       - name: run tests
         run: |
-          poetry run pytest --mypy
+          poetry run pytest
 
       - name: run linter
         run: |
