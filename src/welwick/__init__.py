@@ -29,7 +29,6 @@ def parse_arguments(arguments: List[str]) -> argparse.Namespace:
         "--api-url",
         metavar="URL",
         help="url of the Mastodon API server",
-        required=True,
     )
 
     parser.add_argument(

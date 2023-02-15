@@ -15,7 +15,6 @@ mastodon-py = "^1.8.0"
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.1"
 pytest-cov = "^4.0.0"
-pytest-mock = "^3.10.0"
 pre-commit = "^3.0.4"
 
 [build-system]
