@@ -137,7 +137,7 @@ def generate_fortune() -> Fortune:
     fortune = random.choices(choices, weights=[x.weight for x in choices])[0]
 
     # insert the intro text
-    fortune.text = f"{intro_text} {fortune.text}"
+    fortune.text = f"{intro_text}\n\n{fortune.text}"
     logger.info(f"fortune: {fortune.text}")
 
     # find the full path to the image for this fortune
