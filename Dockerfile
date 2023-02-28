@@ -1,4 +1,4 @@
-FROM python:3.11.2-slim-bullseye@sha256:28e5366ce5c423639950d3962b668730535da08cd235bdacef32171e26cd2b5c AS base
+FROM python:3.11.2-slim-bullseye@sha256:64eb3661444eb66fa45d5aaaba743f165990235dd7da61a1f5042c61e98da37a AS base
 
 # github metadata
 LABEL org.opencontainers.image.source=https://github.com/paullockaby/welwick
